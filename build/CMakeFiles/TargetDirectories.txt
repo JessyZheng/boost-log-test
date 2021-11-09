@@ -1,0 +1,3 @@
+/home/jessy/workspace/boost-log/build/CMakeFiles/rebuild_cache.dir
+/home/jessy/workspace/boost-log/build/CMakeFiles/test_boost_log.dir
+/home/jessy/workspace/boost-log/build/CMakeFiles/edit_cache.dir
