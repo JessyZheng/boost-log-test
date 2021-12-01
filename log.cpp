@@ -6,6 +6,7 @@
 #include <stdexcept>
 #include <sys/timeb.h>
 #include <map>
+#include <thread>
 
 #include <boost/filesystem.hpp>
 #include <boost/smart_ptr/shared_ptr.hpp>

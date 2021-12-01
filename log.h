@@ -28,7 +28,7 @@
 #include <condition_variable>
 
 #include "json.hpp"
-//#include "utils.h"
+// #include "utils.h"
 
 namespace logging = boost::log;
 namespace src = boost::log::sources;
@@ -308,7 +308,7 @@ public:
         dump_buffer = std::make_shared<std::list<std::tuple<struct timeval,_Tp>>>();
 
         std::thread([this](){
-            //bind_cpu(5);
+            // bind_cpu(5);
             prctl(PR_SET_NAME, (std::string("dump_")+cache_name).c_str());
 
             while(true)
